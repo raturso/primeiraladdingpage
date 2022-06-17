@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+/*font-family: 'Anek Malayalam', sans-serif;*/
+/*TEXTO-GRANDE font-family: 'Chakra Petch', sans-serif;*/
+/*minha primeira ladding page*/
+
+body{ font-size: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(158, 103, 227, 0.5);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+}
+.navegacao {
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
+}
+.navegacao :hover{
+    background-color: aqua;
+}
+.botoes :hover{
+    background-color: aqua;
+}
+.botao{
+    display: flex;
+    border-radius: 15px;
+    font-family: 'Anek Malayalam', sans-serif;
+    width: 125px;
+    height: 25px; border: 2px solid coral;
+    justify-content: center;
+    gap: 8px;
+}
+
+.conteudo {
+    display: flex;
+    border-top: 0.7px solid #fff;
+    justify-content: space-around;
+    height: auto;
+    align-content: center;
+    padding-top: 5%;
+}
+.raturso{
+    display: flex;
+    height: 185px;
+    width: 178px;
+    padding: 10px;
+    justify-content:space-around;
+}
+.texto-grande{
+    display: flex;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 40px;
+    align-items: center;
+}
+.texto-medio {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.conteudo-geral{
+  
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.rodape{
+    padding: 50px;
+    border-top: 0.7px solid #fff;
+}
+.rodape strong{
+font-style: italic;
+}
